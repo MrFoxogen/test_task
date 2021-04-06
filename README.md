@@ -1,27 +1,4 @@
 Hello.
-I made a microservice according to the assignment, but perhaps I did not understand something quite correctly.
-
-First you need to create a postgres database:
-db_name = test
-db_user = test
-db_password = test
-The database will automatically be populated with a small amount of data.
-
-Also, to raise the application, you can use the docker-compose file.
-
-There are 4 users in the database:
-- 3 with the role of CLIENT
-- 1 with the role of BACЛOFFICE
-
-
-  Users with the CLIENT role can perform all actions only on their own devices, and with the BACKOFFICE role they can view a list of all devices.
-
-
-Privet. Sdelal mikroservis soglasno zadaniya, no vozmozhno chto-to ponyal ne sovsem pravil'no. Dlya nachalo nuzhno sozdat' bazu dannykh postgres: db_name = test db_yuzer = test db_pasvord = test Baza dannykh avtomaticheski budet zapolnena nebol'shim kollichestvom dannykh. Takzhe dlya podnyatiya prilozheniya mono ispol'zovat' dokker-kompose fayl. V BD yest' 4 pol'zovatelya: - 3 s rol'yu KLIYENT - 1 s rol'yu BAKOFFISE YUzery s rol'yu KLIYENT mogut vypolnyat' vse deystviya tol'ko nad svoimi devaysami, a s rol'yu BACHKOFFISE smotret' spisok vsekh divaysov. Dlya togo chtoby poluchit' kakoy-to devays nam nuzhen token dlya pol'zovatelya. Yego my mozhem poluchit' proydya po puti (http://localhost:8080/api/v1/token) i peredav v tele
-Ещё
-704 / 5000
-Результаты перевода
-Hello.
 I made a microservice according to the task, but perhaps I did not understand something quite correctly.
 
 First you need to create a postgres database:
